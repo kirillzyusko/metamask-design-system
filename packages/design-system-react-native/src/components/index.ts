@@ -49,14 +49,17 @@ export type {
   BadgeWrapperCustomPosition,
 } from './BadgeWrapper';
 
-export {
-  BottomSheetFooter,
-  ButtonsAlignment,
-} from './BottomSheets/BottomSheetFooter';
+export { BottomSheetFooter, ButtonsAlignment } from './BottomSheetFooter';
 export type {
   BottomSheetFooterProps,
   BottomSheetFooterButtonProps,
-} from './BottomSheets/BottomSheetFooter';
+} from './BottomSheetFooter';
+
+export {
+  BottomSheetHeader,
+  BottomSheetHeaderVariant,
+} from './BottomSheetHeader';
+export type { BottomSheetHeaderProps } from './BottomSheetHeader';
 
 export { BottomSheetOverlay } from './BottomSheetOverlay';
 export type { BottomSheetOverlayProps } from './BottomSheetOverlay';
@@ -93,7 +96,7 @@ export type { ButtonIconProps } from './ButtonIcon';
 export { Checkbox } from './Checkbox';
 export type { CheckboxProps } from './Checkbox';
 
-export { HeaderBase } from './HeaderBase';
+export { HeaderBase, HeaderBaseVariant } from './HeaderBase';
 export type { HeaderBaseProps } from './HeaderBase';
 
 export { Icon, IconColor, IconName, IconSize } from './Icon';
@@ -104,6 +107,9 @@ export type { InputProps } from './Input';
 
 export { Label } from './Label';
 export type { LabelProps } from './Label';
+
+export { RadioButton } from './RadioButton';
+export type { RadioButtonProps } from './RadioButton';
 
 export { Jazzicon } from './temp-components/Jazzicon';
 export type { JazziconProps } from './temp-components/Jazzicon';
@@ -127,6 +133,9 @@ export {
 } from './Text';
 export type { TextProps } from './Text';
 
+export { TextField, TextFieldSize } from './TextField';
+export type { TextFieldProps } from './TextField';
+
 export { TextOrChildren } from './temp-components/TextOrChildren';
 export type { TextOrChildrenProps } from './temp-components/TextOrChildren';
 
@@ -140,3 +149,6 @@ export type {
   ToastLinkButtonOptions,
   ToastCloseButtonOptions,
 } from './Toast';
+
+export { ButtonHero, ButtonHeroSize } from './ButtonHero';
+export type { ButtonHeroProps } from './ButtonHero';
